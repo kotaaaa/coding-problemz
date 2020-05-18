@@ -12,7 +12,6 @@ public class Main {
         for (int n = 1; n < N; n++) {
             Bossz[As[n] - 1]++;
         }
-
         for (int n = 0; n < N; n++) {
             System.out.println(Bossz[n]);
         }
