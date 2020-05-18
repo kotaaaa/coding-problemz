@@ -10,9 +10,6 @@ public class Main {
         String[] N_M = sc.nextLine().split(" ");
         int N = Integer.valueOf(N_M[0]);
         int M = Integer.valueOf(N_M[1]);
-        // System.out.println("\n\n");
-        // System.out.println("N:"+N+" M:"+M);
-        // System.out.println("\n\n");
         int[][] switchs = new int[M][N];
         int[] Ns = new int[N];
 
