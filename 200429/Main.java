@@ -31,7 +31,6 @@ public class Main {
         for (int i = 0;i<(1<<N); i++){
 
             int light_flg = 1;
-            // for (int j = 0;j < N;j++){
                 for (int m = 0; m < M; m++){
                     int cnt = 0;
                     for (int n = 0; n < N; n++){
