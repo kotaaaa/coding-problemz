@@ -1,6 +1,6 @@
 
 #########################
-# 二次元累積和， 二分探索
+# 二次元累積和， 二分探索, binary search
 #########################
 n, k = map(int, input().split())
 a = [list(map(int, input().split())) for l in range(n)]
@@ -34,7 +34,7 @@ def solve (mid):
                 return True
     return False
 # ok ,,, ng > left: ok, right: ng (最大値を求める) < 典型01
-# ng ,,, ok > left: ng, right: ok (最小値を求める) < 今回
+# ng ,,, ok > left: ng, right: ok (最小値を求める) < ABC203d
 right = pow(10, 9) # 条件を満たす右端
 left = -1 # 条件を満たさない左端
 while right - left > 1:

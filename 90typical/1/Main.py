@@ -1,3 +1,8 @@
+#########################
+# 二分探索, binary search
+#########################
+# ok ,,, ng > left: ok, right: ng (最大値を求める) < 典型01
+# ng ,,, ok > left: ng, right: ok (最小値を求める) < ABC203d
 n, l = map(int, input().split())
 k = int(input())
 a = list(map(int, input().split()))

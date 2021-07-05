@@ -12,12 +12,18 @@ num = 0
 if n % 2 == 0:
     num = 1
 else:
+    if not 0 in num_dict:
+        print(0)
+        exit()       
     if num_dict[0] != 1:
         print(0)
         exit()
     num = 2
 
 for i in range(n // 2):
+    if not num in num_dict:
+        print(0)
+        exit()        
     if num_dict[num] != 2:
         print(0)
         exit()

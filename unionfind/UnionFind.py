@@ -2,6 +2,10 @@ class UnionFind():
     def __init__(self, n):
         self.n = n
         self.parents = [-1] * n
+    
+    # def __init__(self, arr):
+    #     self.n = len(arr)
+    #     self.parents = arr
 
     def find(self, x):
         if self.parents[x] < 0:

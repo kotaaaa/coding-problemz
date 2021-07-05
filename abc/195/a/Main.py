@@ -1,17 +1,6 @@
-import math
-import sys
-import bisect
+m,h = map(int,input().split())
 
-a,b = map(int, input().split())
-# p = [int(input()) for _ in range(n)]
-
-ko = a+b
-
-if ko >= 15 and b >= 8:
-    print("1") 
-elif ko >= 10 and b >= 3:
-    print("2") 
-elif ko >= 3:
-    print("3") 
+if h % m == 0:
+    print("Yes")
 else:
-    print("4")
+    print("No")    
