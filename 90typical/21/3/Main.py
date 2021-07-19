@@ -1,5 +1,5 @@
 ############
-## SCC 強連結成分分解
+## SCC 強連結成分分解 (dfs 深さ優先探索で実装)
 ############
 from collections import defaultdict
 import sys
