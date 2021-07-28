@@ -82,11 +82,11 @@ class SegTree:
 # print(seg.query(3,8))
 # print(seg.query(3,7))
 # print(seg.query(3,6))
-
 # exit()
-dp = [[0 for _ in range(w)] for _ in range(n)]
-for i in range(1, n):
-    for j in range(1, w):
+
+dp = [[0 for _ in range(w+1)] for _ in range(n+1)]
+for i in range(1, n+1):
+    for j in range(1, w+1):
         ## i番目の料理を作るとき, i番目の料理を作らないとき
         # if j >= l[i]:
         seg = SegTree(dp[i - 1], segfunc, 0)
