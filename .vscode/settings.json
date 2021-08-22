@@ -1,9 +1,0 @@
-{
-    "python.formatting.provider": "black",
-    "macros": {
-        "cutLines": [
-            "cursorEndSelect",
-            "editor.action.clipboardCutAction"
-        ]
-    }   
-}
