@@ -14,3 +14,14 @@
 - 90typical: 典型90問の問題
 - utils: コンテスト用ライブラリの一覧
 - algorithms: 自分で実装した基本的なアルゴリズム等
+
+## How to run
+```
+### Python 
+python Main.py
+### Go
+go run .
+### Java
+javac Main.java
+java Main
+``` 
