@@ -13,7 +13,10 @@ import sys
 # The function is expected to return an INTEGER_ARRAY./
 # The function accepts INTEGER_ARRAY arr as parameter./
 # Getting max value from Priority Queue.
-#
+
+# 空の初期配列に要素を追加していった際、それぞれの数列の中央値を求める。
+# 優先度付きキュー
+
 from heapq import heapify, heappop, heappush
 
 

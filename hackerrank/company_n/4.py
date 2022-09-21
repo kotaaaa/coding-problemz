@@ -15,6 +15,7 @@ import sys
 #  1. INTEGER_ARRAY arr/
 #  2. INTEGER k/
 # /
+# 尺取法 / しゃくとり法
 
 
 def findMinimumLengthSubarray(arr, k):

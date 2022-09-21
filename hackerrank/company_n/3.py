@@ -1,5 +1,6 @@
 # Python3 program to sort the dates in a string array
 
+# 複数キーで配列ソート
 # Map to store the numeric value of each month depending on
 # its occurrence i.e. Jan = 1, Feb = 2 and so on.
 monthsMap = dict()

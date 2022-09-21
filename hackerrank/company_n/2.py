@@ -15,6 +15,7 @@ from heapq import heapify, heappush, heappop
 # The function is expected to return an INTEGER./
 # The function accepts INTEGER_ARRAY num as parameter./
 # /
+# 優先度付きキュー
 
 
 def reductionCost(num):
