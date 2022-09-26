@@ -1,3 +1,4 @@
+# https://www.google.com/url?q=https://leetcode.com/problems/two-sum/&sa=D&source=editors&ust=1664197671410681&usg=AOvVaw1TzHXvmlfsOXd4r0uH886A
 from bisect import bisect_right
 from copy import copy
 

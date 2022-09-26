@@ -1,3 +1,4 @@
+# https://leetcode.com/problems/sum-of-even-numbers-after-queries/
 class Solution:
     def sumEvenAfterQueries(
         self, nums: List[int], queries: List[List[int]]

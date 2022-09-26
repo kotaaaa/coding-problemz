@@ -1,13 +1,11 @@
-class UnionFind():
+class UnionFind:
     def __init__(self, n):
         self.n = n
         self.parents = [-1] * n
-    
-    # def __init__(self, arr):
-    #     self.n = len(arr)
-    #     self.parents = arr
 
     def find(self, x):
+        if x >= self.n:
+            return -1
         if self.parents[x] < 0:
             return x
         else:
@@ -47,4 +45,17 @@ class UnionFind():
         return {r: self.members(r) for r in self.roots()}
 
     def __str__(self):
-        return '\n'.join('{}: {}'.format(r, self.members(r)) for r in self.roots())
+        return "\n".join("{}: {}".format(r, self.members(r)) for r in self.roots())
+
+
+v = UnionFind(10)
+# print(v.parents,v.all_group_members().values())
+v.union(1, 3)
+# print(v.parents,v.all_group_members().values())
+v.union(4, 5)
+# print(v.parents,v.all_group_members().values())
+v.union(1, 5)
+v.union(1, 1)
+# print(v.parents,v.all_group_members().values())
+v.union(6, 7)
+print(v.find(1))
