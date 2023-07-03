@@ -49,13 +49,13 @@ class UnionFind:
 
 
 v = UnionFind(10)
-# print(v.parents,v.all_group_members().values())
+print(v.parents, v.all_group_members().values())
 v.union(1, 3)
-# print(v.parents,v.all_group_members().values())
+print(v.parents, v.all_group_members().values())
 v.union(4, 5)
-# print(v.parents,v.all_group_members().values())
+print(v.parents, v.all_group_members().values())
 v.union(1, 5)
-v.union(1, 1)
-# print(v.parents,v.all_group_members().values())
+print(v.parents, v.all_group_members().values())
 v.union(6, 7)
 print(v.find(1))
+print(v.parents)
