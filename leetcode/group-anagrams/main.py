@@ -3,7 +3,6 @@ class Solution:
         ana_dict = {}
         for s in strs:
             sorted_s = "".join(sorted(s))
-            print(sorted_s)
             if sorted_s in ana_dict.keys():
                 ana_dict[sorted_s].append(s)
             else:
