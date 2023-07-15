@@ -33,7 +33,6 @@ class UnionFind:
 
 class Solution:
     def equationsPossible(self, equations: List[str]) -> bool:
-
         v = UnionFind(27)
         vals = {}
         for i in equations:
