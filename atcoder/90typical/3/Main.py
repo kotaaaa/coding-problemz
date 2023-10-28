@@ -1,4 +1,3 @@
-
 #########################
 # 深さ優先探索を使っている．（stack), pop のとき，stack, popleftのとき，queue
 # collections, deque を使う．
@@ -7,11 +6,11 @@
 from collections import deque
 
 n = int(input())
-graph = [[] for _ in range(n+1)]
-visited = [0 for _ in range(n+1)]
+graph = [[] for _ in range(n + 1)]
+visited = [0 for _ in range(n + 1)]
 
-for i in range(n-1):
-    a,b = map(int, input().split())
+for i in range(n - 1):
+    a, b = map(int, input().split())
     graph[a].append(b)
     graph[b].append(a)
 
@@ -20,7 +19,7 @@ i = 1
 max_distance_i = 0
 for _ in range(2):
     # print("==== ",i," =====")
-    visited = [0 for _ in range(n+1)]
+    visited = [0 for _ in range(n + 1)]
     queue = deque()
     queue.append(i)
     visited[i] = 1
