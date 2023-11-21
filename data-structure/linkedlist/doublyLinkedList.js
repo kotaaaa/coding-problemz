@@ -18,10 +18,10 @@ var DoublyLinkedList = /** @class */ (function () {
     }
     DoublyLinkedList.prototype.insert = function (key) {
         var newNode = new Node(key);
-        newNode.next = this.nil.next;
-        this.nil.next.prev = newNode;
-        this.nil.next = newNode;
-        newNode.prev = this.nil;
+        newNode.next = this.nil.next; // Change the Node behind the new Node to the Node that was originally behind the guard.
+        this.nil.next.prev = newNode; // Change the front of the Node that was originally next to the guard to the new Node.
+        this.nil.next = newNode; // Change to new Node behind the guard.
+        newNode.prev = this.nil; // Specify nil before the new Node.
     };
     DoublyLinkedList.prototype.listSearch = function (key) {
         var cur = this.nil.next;
