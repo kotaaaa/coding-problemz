@@ -1,4 +1,4 @@
-export class Heap {
+export class MaxHeap {
   a: number[];
   constructor(array: number[]) {
     this.a = [0, ...array];

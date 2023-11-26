@@ -15,9 +15,18 @@ The given string consists of four types of characters: `A`,`C`,`G`,`T`
 n ≦ 1000000
 ```
 
+### Solution
+
+- Hashtable
+- open addressing hash table with double hashing, which is collision resolution technique.
+
 ### Test
 
 ```
 $ tsc hashing.spec.ts --lib es6,dom
 $ node hashing.spec.js
 ```
+
+### Time complexity
+
+- O(1) (assuming that conflict of key is neglected.)
