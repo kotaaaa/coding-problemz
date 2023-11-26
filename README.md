@@ -6,8 +6,8 @@
 ## Language
 
 - TypeScript
-- Java
 - Python 3.8.1 (PyPy)
+- Java
 
 ## Explanation of each directory
 
