@@ -16,7 +16,7 @@ $ node doublyLinkedList.spec.js
 
 ### Time complexity
 
-- insert x: O(1) (In this case, node is inserted at is top of the concatenated list.)
+- insert x: O(1) (In this case, node is inserted at top of the concatenated list.)
 - delete x: O(n)
 - delete first: O(1)
 - delete last: O(1)
